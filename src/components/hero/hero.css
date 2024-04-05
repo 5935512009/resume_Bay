@@ -1,0 +1,25 @@
+.hero{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 180px;
+}
+.hero-left-icon{
+    color:rgb(162, 162, 235);
+}
+.hero-left-name{
+    color:rgb(162, 162, 235);
+}
+.hero-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 350px;
+    
+}

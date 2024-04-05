@@ -1,0 +1,25 @@
+.item {
+   
+    display: flex; /* เพิ่ม display: flex เพื่อให้รูปภาพแสดงตรงกลาง */
+    justify-content: center; /* จัดวางรูปภาพให้อยู่ตรงกลางแนวนอน */
+    align-items: center; /* จัดวางรูปภาพให้อยู่ตรงกลางแนวตั้ง */
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: transform 0.3s ease; /* เพิ่ม transition เพื่อทำให้การเปลี่ยนแปลง smooth */
+    cursor: pointer;
+  }
+  .item:hover{
+    transform: scale(1.10);
+  }
+  
+  .item-img-style {
+    width: 150px;
+    height: 180px;
+  }
+  .item-text {
+    font-size: 15px;
+    font-weight: 500;
+    align-self: flex-start;
+    padding-left: 10px;
+  }
+  

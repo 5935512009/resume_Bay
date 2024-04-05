@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  box-shadow: 0 1px 3px -2px black;
+  padding: 10px;
+  
+}
+.nav-icon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  margin-left: -70px;
+}
+.nav-icon:hover {
+  font-weight: 500;
+}
+.nav-list {
+  display: flex;
+  padding: 2px;
+  list-style: none;
+  justify-content: space-between;
+  gap: 20px;
+  cursor: pointer;
+  margin-left: 250px;
+  transition-duration: 1s;
+  transition-delay: 2s;
+}
+.nav-list li {
+  padding: 3px;
+}
+.nav-list hr{
+  background-color: rgb(162, 162, 235);
+  border: none;
+  width: 80%;
+  height: 1px;
+  border-radius: 1px;
+}
+.nav-list li:hover {
+  width: 100%;
+  height: auto;
+  font-weight: 400;
+  background: rgb(213, 213, 228);
+  border-radius: 10px;
+  transition-duration: 0.5s;
+  
+} 
+.nav-list li a {
+  text-decoration: none; /* เอา underline ออก */
+  color: inherit; /* ให้ลิงก์ใช้สีตามที่ตั้งไว้ใน CSS */
+}
+
+.nav-list li a:hover {
+  text-decoration: none; /* เอา underline ออกเมื่อเมาส์ hover */
+}
+
+.nav-list hr{
+  background-color: rgb(162, 162, 235);
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 2px ;
+}
