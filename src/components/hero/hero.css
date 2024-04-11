@@ -15,6 +15,13 @@
 }
 .hero-left-name{
     color:rgb(162, 162, 235);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.hero-left-name:hover{
+    color:rgb(41, 41, 236);
+    text-decoration: underline;
+    transition-duration: 1s;
 }
 .hero-right{
     display: flex;
