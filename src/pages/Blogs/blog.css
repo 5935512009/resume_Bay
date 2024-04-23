@@ -1,0 +1,10 @@
+.blogs{
+    color: black;
+    font-weight: 400;
+}
+.blogs-title{
+    border: 1px solid gray;
+}
+.blogs-details{
+    border: 1px solid gray;
+}
