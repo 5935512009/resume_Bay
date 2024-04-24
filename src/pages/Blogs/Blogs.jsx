@@ -9,7 +9,7 @@ export default function Blogs() {
     axios.get('http://localhost:5000/todos') // ส่งคำขอ HTTP ไปยัง API ของ back-end ที่ endpoint '/api/todos'
       .then(res => {
         setItems(res.data);
-        console.log('hello');
+        console.log(res.data);
       })
       .catch(error => {
         console.log('hello this error is .....',error);
