@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
-
+import Im_bay from '../../Assets/Im_bay.jpg'
 const Navbar = () => {
   const [manu,setManu]=useState("main");
 
@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar">
-        <div className="nav-icon">BAY</div>
+        <div className="nav-icon"><img src={Im_bay} alt="Nav img error"/></div>
         <div className="nav-manu">
           <ul className="nav-list">
             <li onClick={()=>{setManu("Home")}} ><Link to="./Home">Home</Link>{manu==="Home"?<hr/>:<></>}</li>
