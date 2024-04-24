@@ -3,8 +3,6 @@
   width: 100%;
   justify-content: space-around;
   box-shadow: 0 1px 3px -2px black;
-  padding: 10px;
-  
 }
 .nav-icon {
   display: flex;
