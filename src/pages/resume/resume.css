@@ -1,0 +1,57 @@
+.resume {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .header p {
+    font-size: 16px;
+  }
+  
+  .experience h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .experience ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  /* this css will create border-left blue */
+  .experience li {
+    border-left: 2px solid #007bff;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  /* this css is circle in line */
+  .experience li::before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 50%;
+  }
+  .experience li h5{
+    font-weight: 600;
+  }
+  .date {
+    display: block;
+    margin-top: 5px;
+    color: #888;
+    font-size: 14px;
+  }
+  
