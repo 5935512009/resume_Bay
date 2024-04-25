@@ -1,0 +1,24 @@
+.findme{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.find-me-text{
+    font-weight:600;
+}
+.findme-icons{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    gap: 10px;
+     
+}
+.findme-icons a{
+    color: black;
+    transition-duration: 1s;   
+}
+.findme-icons a:hover {
+    transform: scale(1.3);
+    transition-duration: 1s;    
+}
+
