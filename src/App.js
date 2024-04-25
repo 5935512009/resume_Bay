@@ -20,19 +20,19 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Navbar/>
-      <Hero/>
+      <Navbar/>   
       <Routes>
+        <Route path="/" element={<Hero/>}/>
         <Route path="/Home" element={<Home/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/Projects" element={<Projects/>}/>
         <Route path="/Resume" element={<Resume/>}/>
         <Route path="/Blogs" element={<Blogs/>}/>
-        
         <Route path="/man" element={<ShopCategory category="man"/>}/>
         <Route path="/women" element={<ShopCategory category="woman"/>}/>
         <Route path="/child" element={<ShopCategory category="child"/>}/>
       </Routes>
+      
       <Footer/>
       </BrowserRouter>
     </div>

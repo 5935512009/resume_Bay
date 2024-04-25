@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar">
-        <div className="nav-icon"><img src={Im_bay} alt="Nav img error"/></div>
+        <div className="nav-icon"><Link to="./"><img src={Im_bay} alt="Nav img error" /></Link></div>
         <div className="nav-manu">
           <ul className="nav-list">
             <li onClick={()=>{setManu("Home")}} ><Link to="./Home">Home</Link>{manu==="Home"?<hr/>:<></>}</li>

@@ -34,6 +34,13 @@
   transition-duration: 1s;
   transition-delay: 2s;
 }
+/* @media only screen and (max-width: 600px) {
+  .navbar {
+    
+    background-color: lightblue;
+    
+  }
+} */
 .nav-list li {
   padding: 3px;
 }
