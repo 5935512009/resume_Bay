@@ -1,7 +1,7 @@
 .about {
   display: flex;
   justify-content: space-between;
-  background-color: antiquewhite;
+  background: linear-gradient(180deg, #e1ffea22, #fde1ff 60%);
 }
 .about-left {
   display: flex;
@@ -24,7 +24,7 @@
 }
 
 .about-left h2:hover {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   transform: scale(1.01);
   transition-duration: 1s;
 }
@@ -34,7 +34,7 @@
   flex-direction: column;
 }
 .about-right h2 {
-  background-color: antiquewhite;
+  
   border-radius: 1px;
   padding: 5px;
   margin: 10px;
