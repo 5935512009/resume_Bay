@@ -15,9 +15,7 @@ export default function Hero() {
               <img src={glass_man_removebg} alt="hero right not work" />
         </div>
     </div>
-    <div className="introduce">
-      let me introduct myself
-    </div>
+  
     <div className="findme">
       <FindMe/>
     </div>
