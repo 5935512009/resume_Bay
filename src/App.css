@@ -2,5 +2,25 @@
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.footer{
+  width: 100%;
+  margin-bottom: 0%;
+}
+@media screen and (max-width: 865px){
+  .App{
+    width: 865px;
+    height: 100%;
+  }
 }
 
+@media screen and (max-width: 400px){
+  .App{
+    width: 400px;
+    height: 100%;
+  }
+}

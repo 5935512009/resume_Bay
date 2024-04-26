@@ -32,9 +32,9 @@ function App() {
         <Route path="/women" element={<ShopCategory category="woman"/>}/>
         <Route path="/child" element={<ShopCategory category="child"/>}/>
       </Routes>
-      
-      <Footer/>
+      <div className='footer'> <Footer/></div>
       </BrowserRouter>
+      
     </div>
   );
 }

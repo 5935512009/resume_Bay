@@ -3,16 +3,18 @@
   top: 0;
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
+  
   box-shadow: 0 1px 3px -2px black;
   background: white;
+  transition-duration: 1s;
 }
 .nav-icon {
   display: flex;
   align-items: center;
   gap: 15px;
   cursor: pointer;
-  margin-left: -70px;
+  margin-left: 10px;
 }
 .nav-icon img{
   width:70px;
@@ -26,21 +28,15 @@
 .nav-list {
   display: flex;
   padding: 2px;
+  margin-right: 10px;
   list-style: none;
   justify-content: space-between;
   gap: 20px;
   cursor: pointer;
-  margin-left: 250px;
+  margin-left: auto;
   transition-duration: 1s;
   transition-delay: 2s;
 }
-/* @media only screen and (max-width: 600px) {
-  .navbar {
-    
-    background-color: lightblue;
-    
-  }
-} */
 .nav-list li {
   padding: 3px;
 }
@@ -75,4 +71,21 @@
   width: 80%;
   height: 3px;
   border-radius: 2px ;
+}
+
+
+@media screen and (max-width: 865px) {
+  .navbar {
+    background-color: rgb(245, 227, 227);
+    transition-duration: 1s;
+    width: 865px;
+  }
+  
+}
+
+@media screen and (max-width: 400px){
+  .App{
+    width: 400px;
+    height: 100%;
+  }
 }
