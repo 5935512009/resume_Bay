@@ -1,6 +1,7 @@
 .blogs{
     color: black;
     font-weight: 400;
+    height: 100vh;
 }
 .blogs-title{
     border: 1px solid gray;

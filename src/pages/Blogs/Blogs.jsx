@@ -18,7 +18,7 @@ export default function Blogs() {
   }, []);
 
   return (
-    <div>
+    <div className='blogs'>
       <h3>Items</h3>
       {items.map((item, index) => (
         <div key={index}>
