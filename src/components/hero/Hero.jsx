@@ -1,6 +1,5 @@
 import React from 'react'
 import './hero.css'
-import FindMe from '../findme/FindMe'
 import { FaHandsClapping } from "react-icons/fa6";
 import glass_man_removebg from '../../Assets/glass_man_removebg.png'
 export default function Hero() {
@@ -14,10 +13,6 @@ export default function Hero() {
         <div className='hero-right'>
               <img src={glass_man_removebg} alt="hero right not work" />
         </div>
-    </div>
-  
-    <div className="findme">
-      <FindMe/>
     </div>
  </> 
  )
