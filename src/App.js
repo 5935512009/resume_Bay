@@ -14,7 +14,7 @@ import Projects from './pages/projects/Projects';
 import Resume from './pages/resume/Resume';
 import Blogs from './pages/Blogs/Blogs';
 import ShopCategory from './pages/ShopCategory/ShopCategory';
-
+import FindMe from './components/findme/FindMe.jsx'
 
 function App() {
   return (
@@ -32,6 +32,7 @@ function App() {
         <Route path="/women" element={<ShopCategory category="woman"/>}/>
         <Route path="/child" element={<ShopCategory category="child"/>}/>
       </Routes>
+      <div className='findMe'><FindMe/></div>
       <div className='footer'> <Footer/></div>
       </BrowserRouter>
       
