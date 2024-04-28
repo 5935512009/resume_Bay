@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   background: linear-gradient(180deg, #e1ffea22, #fde1ff 60%);
-  height: 100vh;
+  height: auto;
 }
 .about-left {
   display: flex;
@@ -21,13 +21,13 @@
   margin: 10px;
   padding: 5px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  transition-duration: 1s;
+  transition-duration: 0.1s;
 }
 
 .about-left h2:hover {
   background-color: rgb(255, 255, 255);
   transform: scale(1.01);
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 
 .about-right {
