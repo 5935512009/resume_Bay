@@ -27,45 +27,45 @@ function SkillSet() {
         front-end
         <br />
         <div className="skillset-sub">
-          html <FaHtml5 />
-          css <FaCss3Alt />
-          javascript <IoLogoJavascript />
+          html <FaHtml5 size={40}/>
+          css <FaCss3Alt size={40} />
+          javascript <IoLogoJavascript size={40} />
         </div>
         <div className="skillset-sub">
-          reactJS <FaReact />
-          vueJS <FaVuejs />
+          reactJS <FaReact size={40} />
+          vueJS <FaVuejs size={40} />
         </div>
         <div className="skillset-sub">
-          TailwindCSS <SiTailwindcss />
-          Bootstrap5 <FaBootstrap />
+          TailwindCSS <SiTailwindcss size={40} />
+          Bootstrap5 <FaBootstrap size={40} />
         </div>
         back-end
         <br />
         <div className="skillset-sub">
-          PHP <FaPhp />
-          node <FaNode />
+          PHP <FaPhp size={40} />
+          node <FaNode  size={40} />
           express
         </div>
         server
         <br />
         <div className="skillset-sub">
-          SQLserver <SiMysql />
-          firebase <IoLogoFirebase />
+          SQLserver <SiMysql size={40} />
+          firebase <IoLogoFirebase size={40} />
           MongoDB
-          <SiMongodb />
+          <SiMongodb size={40} />
         </div>
         <br />
         Tools I use
         <br />
         <div className="skillset-sub">
-          VSCODE <TbBrandVscode />
-          XAMPP <SiXampp />
-          vercel <IoLogoVercel />
+          VSCODE <TbBrandVscode size={40} />
+          XAMPP <SiXampp size={40} />
+          vercel <IoLogoVercel size={40} />
         </div>
         <div className="skillset-sub">
-          ubuntu-linux-server <FaUbuntu />
-          MacOS <SiMacos />
-          window <FaWindows />
+          ubuntu-linux-server <FaUbuntu  size={40}/>
+          MacOS <SiMacos size={40} />
+          window <FaWindows size={40} />
         </div>
         <br />
       </div>
