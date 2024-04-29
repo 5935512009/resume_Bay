@@ -1,7 +1,7 @@
 import React from 'react'
 import './hero.css'
 import { FaHandsClapping } from "react-icons/fa6";
-import glass_man_removebg from '../../Assets/glass_man_removebg.png'
+import code_typing_concept_illustration_removebg from '../../Assets/code_typing_concept_illustration_removebg.png'
 export default function Hero() {
   return (<>
     <div className='hero'>
@@ -11,7 +11,7 @@ export default function Hero() {
             <h2>my name is <span className='hero-left-name'> Pasut Srijaroen</span></h2>
         </div>
         <div className='hero-right'>
-              <img src={glass_man_removebg} alt="hero right not work" />
+              <img src={code_typing_concept_illustration_removebg} alt="hero right not work" />
         </div>
     </div>
  </> 
