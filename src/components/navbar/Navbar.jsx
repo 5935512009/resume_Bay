@@ -3,14 +3,14 @@ import "./navbar.css";
 import { Link } from "react-router-dom";
 import Im_bay from '../../Assets/Im_bay.jpg'
 const Navbar = () => {
-  const [manu,setManu]=useState("main");
+  const [manu,setManu]=useState("Home");
 
 
   return (
     <>
       <div className="navbar">
         <div className="nav-icon"><Link to="./" onClick={()=>{setManu("Home")}}><img src={Im_bay} alt="Nav img error" /></Link></div>
-        <div className="nav-manu">
+        <div className="nav-menu">
           <ul className="nav-list">
             <li onClick={()=>{setManu("Home")}} ><Link to="./Home">Home{manu==="Home"?<hr/>:<></>}</Link></li>
             <li onClick={()=>{setManu("About")}}><Link to="./About">About{manu==="About"?<hr/>:<></>}</Link></li>
