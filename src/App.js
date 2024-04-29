@@ -5,7 +5,7 @@ import {
   Route,
   Routes
 } from "react-router-dom";
-import Hero from './components/hero/Hero';
+// import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer'
 import Home from './pages/home/Home';
@@ -22,7 +22,7 @@ function App() {
       <BrowserRouter>
       <Navbar/>   
       <Routes>
-        <Route path="/" element={<Hero/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/Home" element={<Home/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/Projects" element={<Projects/>}/>
