@@ -1,3 +1,4 @@
+import Hero from '../../components/hero/Hero';
 import HomeCard from './HomeCard';
 import './home.css'
 
@@ -6,16 +7,13 @@ const Home =()=>{
         <>
             <div className='home'>
                 <div className="home-left">
-                    LET ME INTRODUCE MYSELF
+                    <Hero/>
+                  <div className="home-introduce">  LET ME INTRODUCE MYSELF</div>
                     <HomeCard/>
                 </div>
                 <div className="home-right">
 
                 </div>
-            </div>
-            <div className="home-buttom">
-                FIND ME ON
-                <p>Feel free to connect with me</p>
             </div>
         </>
     )
