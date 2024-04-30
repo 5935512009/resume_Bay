@@ -1,6 +1,5 @@
 .about {
-  display: flex;
-  justify-content: space-between;
+
   background: linear-gradient(180deg, #e1ffea22, #fde1ff 60%);
   height: auto;
 }
@@ -18,7 +17,7 @@
     transition-duration: 1s;
   }
 .about-left h2 {
-  margin: 10px;
+  margin: 10px; 
   padding: 5px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   transition-duration: 0.1s;

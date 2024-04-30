@@ -8,7 +8,6 @@ const About = () => {
       <div className="about-left">
         <h2>
           Know Who <span className="about-left-name">I'm</span>
-          <br />
         </h2>
         <h2>
           <AboutCard />

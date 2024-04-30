@@ -32,9 +32,9 @@ const Resume = () => {
         <ul>
           <li>
             <h3>Network Engineer</h3>
-            <h5>organization : triple T boardband</h5>
+            <h5>organization : triple T boardband (Internet service department)</h5>
             <p><BsDot /> บรรยายเกี่ยวกับประสบการณ์ทำงาน 1</p>
-            <span className="date">เดือน/ปี เริ่มต้น - เดือน/ปี สิ้นสุด</span>
+            <span className="date"> May 2023 - present</span>
           </li>
           
           <li>
