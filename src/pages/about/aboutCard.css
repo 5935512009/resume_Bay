@@ -1,5 +1,6 @@
 .aboutCard{
     color: black;
+    
 }
 .aboutCard-name{
     color:rgb(162, 162, 235);
@@ -8,4 +9,18 @@
 
 .aboutCard ul li{
     list-style: none;
+}
+.aboutCard-left{
+    display: block;
+
+}
+.aboutCard-left img{
+    height: 300px;
+    border-radius: 5%;
+    margin-top: 1%;
+    margin-left: 25%;
+}
+
+.aboutCard-right{
+    width: auto;
 }

@@ -18,22 +18,23 @@ import { IoLogoVercel } from "react-icons/io5";
 import { FaUbuntu } from "react-icons/fa";
 import { SiMacos } from "react-icons/si";
 import { FaWindows } from "react-icons/fa6";
-
+import { SiGnubash } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 function SkillSet() {
   return (
     <div>
-      SKILL SET <br />
       <div className="skillset">
+        <u>SKILL SET</u> <br />
         front-end
         <br />
         <div className="skillset-sub">
-          html <FaHtml5 size={40}/>
-          css <FaCss3Alt size={40} />
-          javascript <IoLogoJavascript size={40} />
+          Html <FaHtml5 size={40} />
+          CSS <FaCss3Alt size={40} />
+          Javascript <IoLogoJavascript size={40} />
         </div>
         <div className="skillset-sub">
-          reactJS <FaReact size={40} />
-          vueJS <FaVuejs size={40} />
+          ReactJS <FaReact size={40} />
+          VueJS <FaVuejs size={40} />
         </div>
         <div className="skillset-sub">
           TailwindCSS <SiTailwindcss size={40} />
@@ -43,29 +44,29 @@ function SkillSet() {
         <br />
         <div className="skillset-sub">
           PHP <FaPhp size={40} />
-          node <FaNode  size={40} />
-          express
+          Bash script <SiGnubash size={40} />
+          Node + Express <FaNode size={40} />
         </div>
         server
         <br />
         <div className="skillset-sub">
           SQLserver <SiMysql size={40} />
-          firebase <IoLogoFirebase size={40} />
+          Firebase <IoLogoFirebase size={40} />
           MongoDB
           <SiMongodb size={40} />
         </div>
-        <br />
         Tools I use
         <br />
         <div className="skillset-sub">
           VSCODE <TbBrandVscode size={40} />
           XAMPP <SiXampp size={40} />
-          vercel <IoLogoVercel size={40} />
+          Vercel <IoLogoVercel size={40} />
         </div>
         <div className="skillset-sub">
-          ubuntu-linux-server <FaUbuntu  size={40}/>
+          Ubuntu-linux-server <FaUbuntu size={40} />
           MacOS <SiMacos size={40} />
-          window <FaWindows size={40} />
+          Window <FaWindows size={40} />
+          Github <FaGithub size={40} />
         </div>
         <br />
       </div>

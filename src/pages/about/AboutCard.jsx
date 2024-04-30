@@ -1,9 +1,12 @@
 import React from "react";
 import "./aboutCard.css";
 import { ImPointRight } from "react-icons/im";
+import im_Bay_in_work from '../../Assets/me/im_Bay_in_work.jpg'
 export default function AboutCard() {
   return (
     <div className="aboutCard">
+      <div className="aboutCard-left">
+      <img src={im_Bay_in_work} alt="asdasdasd" />
       <p>
         Hi Everyone, I am
         <span className="aboutCard-name"> Pasut Srijaroen</span>
@@ -29,6 +32,10 @@ export default function AboutCard() {
           <ImPointRight /> Travelling
         </li>
       </ul>
+      </div>
+      <div className="aboutCard-right">
+          
+      </div>
     </div>
   );
 }
