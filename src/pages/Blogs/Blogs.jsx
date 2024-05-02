@@ -6,7 +6,7 @@ export default function Blogs() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/todos') // ส่งคำขอ HTTP ไปยัง API ของ back-end ที่ endpoint '/api/todos'
+    axios.get('https://your-app-name.vercel.app/todos') // ส่งคำขอ HTTP ไปยัง API ของ back-end ที่ endpoint '/api/todos'
       .then(res => {
         setItems(res.data);
         console.log(res.data);
