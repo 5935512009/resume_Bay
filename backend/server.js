@@ -1,8 +1,16 @@
 // bay-resume-back-end/index.js
 
-const express = require('express');
-const mongoose = require('mongoose');
-const cors = require('cors');
+import express from "express";
+import mongoose from "mongoose";
+import cors from 'cors';
+import dotenv from 'dotenv';
+
+// const express = require('express');
+// const mongoose = require('mongoose');
+// const cors = require('cors');
+
+// เรัยกใช้งานไฟล์ .env
+dotenv.config();
 
 const app = express();
 app.use(cors());
@@ -37,7 +45,7 @@ app.get('/todos', async (req, res) => {
 });
 
 // Start server
-const PORT = 5000;
+const PORT = process.env.PORT || 4001
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
