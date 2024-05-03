@@ -44,6 +44,9 @@ app.get('/todos', async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 });
+app.get('/api/test',(req,res)=>{
+    res.send('This is test part');
+})
 
 // Start server   *** process.env.PORT ไปดูไฟล์ .env ที่ PORT
 const PORT = process.env.PORT || 4001
