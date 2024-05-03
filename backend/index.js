@@ -1,7 +1,7 @@
 // bay-resume-back-end/index.js
 
 // เปลี่ยนรูปแบบ type เป็น module
-import express from "express";
+const express = require('express');
 
 const app = express()
 
