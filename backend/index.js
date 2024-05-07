@@ -14,7 +14,7 @@ dotenv.config();
 const app = express();
 app.use(cors(
   {
-    origin:["https://resume-bay-server-01-1vdk1ur5f-5935512009s-projects.vercel.app/todos"],
+    origin:["https://resume-bay-server-01-1vdk1ur5f-5935512009s-projects.vercel.app"],
     methods:["GET"],
     credentials:true
   }
