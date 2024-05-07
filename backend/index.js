@@ -12,7 +12,13 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const app = express();
-app.use(cors());
+app.use(cors(
+  {
+    origin:["https://resume-bay-server-01-1vdk1ur5f-5935512009s-projects.vercel.app"],
+    methods:["GET"],
+    credentials:true
+  }
+));
 app.use(express.json());
 
 // Connect to MongoDB *** process.env.MONGO_URL ไปดูไฟล์ .env ที่ MONGO_URL
