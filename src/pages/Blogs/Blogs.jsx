@@ -7,7 +7,7 @@ export default function Blogs() {
 
   useEffect(() => {
     axios
-      .get("https://resume-bay-server-01.vercel.app/todos") // ส่งคำขอ HTTP ไปยัง API ของ back-end ที่ endpoint '/api/todos'
+      .get('https://resume-bay-server-01.vercel.app/todos') // ส่งคำขอ HTTP ไปยัง API ของ back-end ที่ endpoint '/api/todos'
       .then((res) => {
         setItems(res.data);
         console.log(res.data);
