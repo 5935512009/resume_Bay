@@ -14,7 +14,7 @@ dotenv.config();
 const app = express();
 app.use(cors(
   {
-    origin:["https://resume-bay-server-01-k87zzvezn-5935512009s-projects.vercel.app"],
+    origin:["https://resume-bay-server-01.vercel.app"],
     methods:["GET"],
     credentials:true
   }
@@ -42,6 +42,9 @@ const todoSchema = new mongoose.Schema({
 const Todo = mongoose.model('Todo', todoSchema, 'todolistcollection');
 
 // Define API endpoint to get todos
+app.get('/', async (req,res)=>{
+  res.json("Hello , My name is Bay")
+})
 app.get('/todos', async (req, res) => {
   try {
     const todos = await Todo.find();
