@@ -19,7 +19,7 @@ export default function Blogs() {
 
   return (
     <div className="blogs">
-      <h3>Items</h3>
+      <h3 className="">Experience</h3>
       <div className="blogs-items">
         {items.map((item, index) => (
           <div className="blogs-items-lists" key={index}>
