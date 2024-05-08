@@ -1,5 +1,5 @@
-import express from "express";
-import mongoose from "mongoose";
+import express from 'express';
+import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 
@@ -7,11 +7,11 @@ dotenv.config();
 
 const app = express();
 
-// Allow requests from specific origin with specific methods and credentials
+// Middleware to handle CORS
 app.use(cors({
-  origin: "https://resume-bay-server-01.vercel.app",
-  methods: "GET",
-  credentials: true
+  origin: 'https://resume-bay-full-stack.vercel.app', // Allow requests from specific origin
+  methods: 'GET', // Allow only GET requests
+  credentials: true // Allow credentials such as cookies to be sent along with requests
 }));
 
 app.use(express.json());
