@@ -53,10 +53,20 @@ app.get('/todos/:id',(req,res)=>{
   .catch(err => console.log(err))
 })
 
-app.post('/create',(req,res)=>{
+app.post('/todos/create',(req,res)=>{
   Todo.create(req.body)
     .then(post => res.json(post))
     .catch(err => console.log(err))
+})
+
+app.put('/todos/update/:id', (req,res)=>{
+  const id = req.params.id;
+  Todo.findByIdAndUpdate({_id:id},{
+    name: req.body.name,
+    description: req.body.description,
+    tools: req.body.tools
+  }).then(todo => res.json(todo))
+  .catch(err => console.log(err))
 })
 
 app.get('/api/test', (req, res) => {
