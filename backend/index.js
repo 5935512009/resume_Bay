@@ -9,8 +9,8 @@ const app = express();
 
 // Middleware to handle CORS
 app.use(cors({
-  origin: ['https://resume-bay-full-stack.vercel.app','https://resume-bay-full-stack-5935512009s-projects.vercel.app','http://localhost:3000'], // Allow requests from specific origin
-  methods: 'GET', // Allow only GET requests
+  origin: ['https://resume-bay-full-stack.vercel.app','https://resume-bay-full-stack-5935512009s-projects.vercel.app','https://resume-bay-seven.vercel.app','http://localhost:3000'], // Allow requests from specific origin
+  methods: ['GET','POST'], // Allow only GET requests
   credentials: true // Allow credentials such as cookies to be sent along with requests
 }));
 
@@ -45,6 +45,19 @@ app.get('/todos', async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 });
+
+app.get('/todos/:id',(req,res)=>{
+  const id = req.params.id
+  Todo.findById({_id:id})
+  .then(post => res.json(post))
+  .catch(err => console.log(err))
+})
+
+app.post('/create',(req,res)=>{
+  Todo.create(req.body)
+    .then(post => res.json(post))
+    .catch(err => console.log(err))
+})
 
 app.get('/api/test', (req, res) => {
   res.send('This is test part');
