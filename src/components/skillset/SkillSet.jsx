@@ -20,6 +20,7 @@ import { SiMacos } from "react-icons/si";
 import { FaWindows } from "react-icons/fa6";
 import { SiGnubash } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
+import { SiPostman } from "react-icons/si";
 function SkillSet() {
   return (
     <div>
@@ -61,6 +62,7 @@ function SkillSet() {
           VSCODE <TbBrandVscode size={40} />
           XAMPP <SiXampp size={40} />
           Vercel <IoLogoVercel size={40} />
+          Postman <SiPostman size={40}/>
         </div>
         <div className="skillset-sub">
           Ubuntu-linux-server <FaUbuntu size={40} />
