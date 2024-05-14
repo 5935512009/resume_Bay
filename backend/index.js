@@ -66,7 +66,14 @@ app.put('/todos/update/:id', (req,res)=>{
     description: req.body.description,
     tools: req.body.tools
   }).then(todo => res.json(todo))
-  .catch(err => console.log(err))
+    .catch(err => console.log(err))
+})
+
+app.delete('/todos/delete/:id', (req,res)=>{
+  const id = req.params.id;
+  Todo.findByIdAndDelete({_id:id})
+  .then(todo => res.json(todo))
+  .catch(err=>console.log(err))
 })
 
 app.get('/api/test', (req, res) => {
