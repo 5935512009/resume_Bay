@@ -15,6 +15,9 @@ import Resume from './pages/resume/Resume';
 import Blogs from './pages/Blogs/Blogs';
 import ShopCategory from './pages/ShopCategory/ShopCategory';
 import FindMe from './components/findme/FindMe.jsx'
+import Create from './components/createblogs/Create.jsx';
+import UpdateBlogs from './components/update/UpdateBlogs.jsx';
+
 
 function App() {
   return (
@@ -28,6 +31,8 @@ function App() {
         <Route path="/Projects" element={<Projects/>}/>
         <Route path="/Resume" element={<Resume/>}/>
         <Route path="/Blogs" element={<Blogs/>}/>
+        <Route path='/Create' element={<Create/>}/>
+        <Route path='/UpdateBlogs/:id' element={<UpdateBlogs/>}/>
         <Route path="/man" element={<ShopCategory category="man"/>}/>
         <Route path="/women" element={<ShopCategory category="woman"/>}/>
         <Route path="/child" element={<ShopCategory category="child"/>}/>
