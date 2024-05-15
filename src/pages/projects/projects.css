@@ -1,3 +1,109 @@
 .projects{
+    color: black;
+    font-weight: 400;
     height: 100%;
 }
+.projects .projects-link{
+    margin-left: 5px;
+    background-color: #027c31;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+.projects .projects-link:hover{
+    background-color: #0abe4f;
+}
+.projects-title{
+    border: 1px solid gray;
+}
+.projects-details{
+    border: 1px solid gray;
+}
+.projects .projects-items{
+    margin: 10px; 
+    padding: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition-duration: 0.1s;
+}
+.projects .projects-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projects .projects-items .projects-items-lists{
+    margin: 10px; 
+    padding: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition-duration: 0.1s;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.projects .projects-items .projects-items-lists:hover{
+    
+    margin: 10px; 
+    padding: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition-duration: 0.1s;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.projects .projects-items .projects-items-lists .name{
+    background-color: white;
+    padding: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition-duration: 0.1s;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition-duration: 1s;
+    font-weight: 500;
+}
+.projects-items-lists .projects-items-button{
+    display: flex;
+    gap: 10px;
+}
+.projects-items-lists .link-update{
+    
+    background-color: #027c31;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.projects-items-lists .link-update:hover{
+    background-color: #0abe4f;
+}
+.projects-items-lists .link-delete{
+    
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.projects-items-lists .link-delete:hover{
+    background-color: #ee786f;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
