@@ -10,7 +10,7 @@ const app = express();
 // Middleware to handle CORS
 app.use(cors({
   origin: ['https://resume-bay-full-stack.vercel.app','https://resume-bay-full-stack-5935512009s-projects.vercel.app','https://resume-bay-seven.vercel.app','http://localhost:3000'], // Allow requests from specific origin
-  methods: ['GET','POST','PUT'], // Allow only GET requests
+  methods: ['GET','POST','PUT','DELETE'], // Allow only GET requests
   credentials: true // Allow credentials such as cookies to be sent along with requests
 }));
 
