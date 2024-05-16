@@ -29,7 +29,7 @@ export default function AboutCard() {
           <ImPointRight /> Read Manga
         </li>
         <li>
-          <ImPointRight /> Travelling
+          <ImPointRight /> Traveling 
         </li>
       </ul>
       </div>

@@ -10,6 +10,20 @@
     justify-content: center;
     padding-left: 180px;
 }
+.hero .hero-left .hero-left-button{
+    background-color: rgb(223, 160, 231);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    border: 1px solid gray;
+    transition-duration: 1s;   
+}
+.hero .hero-left .hero-left-button:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;    
+}
 .hero-left-icon{
     color:rgb(162, 162, 235);
 }
